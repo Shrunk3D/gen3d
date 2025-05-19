@@ -1,1 +1,6 @@
 # Notes for development
+### Setup (export) env vars for model cache directory to mounted workspace network volume:
+```
+export HF_HOME="/workspace/huggingface"
+export HY3DGEN_MODELS="/workspace/hy3dgen"
+```
